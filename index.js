@@ -12,7 +12,7 @@ app.use(express.json());
 const path = require("path");
 const ethers = require('ethers');
 
-var port = 3002;
+var port = 3001;
 
 const API_URL = process.env.API_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
